@@ -1,3 +1,4 @@
+#importing all the libraries required
 import streamlit as st
 import pandas as pd 
 from matplotlib import pyplot as plt
@@ -7,23 +8,28 @@ import numpy as np
 from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
     
+#Setting up title for app
 st.title(f"Tell-my-food")
 st.text("Let us help you with ordering!!!")
 st.image("image.jpeg")
 
 ## nav = st.sidebar.radio("Navigation",["Home","IF Necessary 1","If Necessary 2"])
 
+#preferences tab
 st.subheader("What are your preferences?")
 vegn = st.radio("Vegetables or none!",["veg","non-veg"],index = 1) 
 
+#Cuisine selection
 st.subheader("What would you prefer to order?")
 cuisine = st.selectbox("Choose your favourite preference!!",['Healthy Food', 'Snack', 'Dessert', 'Japanese', 'Indian', 'French',
        'Mexican', 'Italian', 'Chinese', 'Beverage', 'Thai'])
 
 
+#Rating scale
 st.subheader("How well do you want the dish to be you have choosen?")  #RATING
 val = st.slider("from poor to the best!",0,10)
 
+#Readings the dataset files
 food = pd.read_csv("food.csv")
 ratings = pd.read_csv("ratings.csv")
 combined = pd.merge(ratings, food, on='Food_ID')
@@ -66,7 +72,7 @@ def food_recommendation(Food_Name):
         return df['Name']
     else:
         return "No Similar Foods."
-
+#Different case
 
 display = food_recommendation(finallist)
 #names1 = display['Name'].tolist()
@@ -78,3 +84,5 @@ if bruh == True:
     if bruh1 == True:
         for i in display:
             st.write(i)
+            
+#Ending of program
