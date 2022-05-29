@@ -10,6 +10,7 @@ https://tell-my-food.herokuapp.com/
 ![preview-1](https://user-images.githubusercontent.com/94471257/170859296-e9dedef2-edf7-4a63-aa07-6b1839cbc619.png)
 
 # Table of content
+------------------------
     *[Features](#Features)
     *[TechStack](#TechStacks)
     *[Development](#Development)
@@ -25,27 +26,29 @@ https://tell-my-food.herokuapp.com/
 - Recommender
     - Users are recommended a list of 10 food items similar of their initial choice & ratings given.
 
-![image](https://user-images.githubusercontent.com/94471257/170860239-43828efe-81ff-45b7-a92c-14f9aa04a2d9.png)
+![preview-4](https://user-images.githubusercontent.com/94471257/170861053-f9c328c9-1713-435b-bb62-a7e36e446549.png)
 
 # TechStacks
-![image](https://user-images.githubusercontent.com/94471257/170860451-80a52a32-6d9e-429a-84a5-346dc40056ef.png)
+
+![preview-3](https://user-images.githubusercontent.com/94471257/170861036-5e8c51e2-0ee7-4653-8f4a-60f4e482e3f0.png)
 
 For deployment - Heroku
+
 ![heroku](https://user-images.githubusercontent.com/94471257/170860524-615c30fc-594e-4cfc-8969-d44b29b9fa79.png)
 
-# Development
-# Pre-requisites:
--Streamlit
--Python 3.6-3.9
+#### Development
+    # Pre-requisites:
+         -Streamlit
+         -Python 3.6-3.9
 
-- Install Streamlit
-```
-$ pip install streamlit
-```
--Executing the source file
-```
-$ streamlit run app.py
-```
+   - Install Streamlit
+    ```
+     $ pip install streamlit
+    ```
+   - Executing the source file
+    ```
+     $ streamlit run app.py
+    ```
 
 # Future Vision
 - To make the app available for healthy and unhealthy people (with their diseases).
