@@ -10,10 +10,10 @@ https://tell-my-food.herokuapp.com/
 ![preview-1](https://user-images.githubusercontent.com/94471257/170859296-e9dedef2-edf7-4a63-aa07-6b1839cbc619.png)
 
 # Table of content
-  -Features
-  -TechStack
-  -Development
-  -Vision
+- Features
+- TechStack
+- Development
+- Vision
 
 # Features
 - Veg/ Non_veg 
