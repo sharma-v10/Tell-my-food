@@ -36,8 +36,8 @@ For deployment - Heroku
 
 ![heroku](https://user-images.githubusercontent.com/94471257/170860524-615c30fc-594e-4cfc-8969-d44b29b9fa79.png)
 
-#### Development
-    # Pre-requisites:
+# Development
+   # Pre-requisites:
          -Streamlit
          -Python 3.6-3.9
 
