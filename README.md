@@ -38,17 +38,17 @@ For deployment - Heroku
 
 # Development
    # Pre-requisites:
-         -Streamlit
-         -Python 3.6-3.9
+       -Streamlit
+       -Python 3.6-3.9
 
-   - Install Streamlit
-    ```
-     $ pip install streamlit
-    ```
-   - Executing the source file
-    ```
-     $ streamlit run app.py
-    ```
+  - Install Streamlit
+   ```
+   $ pip install streamlit
+   ```
+  - Executing the source file
+   ```
+   $ streamlit run app.py
+   ```
 
 # Future Vision
 - To make the app available for healthy and unhealthy people (with their diseases).
