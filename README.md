@@ -11,10 +11,10 @@ https://tell-my-food.herokuapp.com/
 
 # Table of content
 ------------------------
-    *Markup: [Features](#Features "Goto Features")
-    *Markup: [TechStack](#TechStacks "Goto TechStacks")
-    *Markup: [Development](#Development "Goto Development")
-    *Markup: [Vision](#Future Vision "Goto Future Vision")
+    Markup: [Features](#Features "Goto Features")
+    Markup: [TechStack](#TechStacks "Goto TechStacks")
+    Markup: [Development](#Development "Goto Development")
+    Markup: [Vision](#Future Vision "Goto Future Vision")
 
 # Features
 - Veg/ Non_veg 
