@@ -1,26 +1,21 @@
 # Tell my food
------------------
 tell-my-food is recommendation system based machine learning web app, which when executed provides the client to choose a food item based on their own liking, and basis on which the system recommend them 10 more such similar foods. Our system utilizes item-based collaborative filtering system to implement the same. Our system provides a variety of cuisines to choose from within vegetarian/non-vegetarian options as well.
 
 # Live Demo
-------------
 https://tell-my-food.herokuapp.com/
 
 # Preview
-------------
+![preview](https://user-images.githubusercontent.com/94471257/170859302-f9b8cda8-c5dd-4d3c-b4aa-e83aca209146.png)
 ![preview-2](https://user-images.githubusercontent.com/94471257/170859291-ab9c8315-3050-4aeb-a672-8199a67ef57f.png)
 ![preview-1](https://user-images.githubusercontent.com/94471257/170859296-e9dedef2-edf7-4a63-aa07-6b1839cbc619.png)
-![preview](https://user-images.githubusercontent.com/94471257/170859302-f9b8cda8-c5dd-4d3c-b4aa-e83aca209146.png)
 
 # Table of content
-------------------------
     *[Features](#Features)
     *[TechStack](#TechStacks)
     *[Development](#Development)
     *[Vision](#Future Vision)
 
 # Features
---------------------------------------------------------
 - Veg/ Non_veg 
     - User can choose a preferred option of vegetarian/non-vegetarian food item.
 - Variety of cuisines
@@ -33,14 +28,12 @@ https://tell-my-food.herokuapp.com/
 ![image](https://user-images.githubusercontent.com/94471257/170860239-43828efe-81ff-45b7-a92c-14f9aa04a2d9.png)
 
 # TechStacks
---------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/94471257/170860451-80a52a32-6d9e-429a-84a5-346dc40056ef.png)
 
 For deployment - Heroku
 ![heroku](https://user-images.githubusercontent.com/94471257/170860524-615c30fc-594e-4cfc-8969-d44b29b9fa79.png)
 
 # Development
--------------------------------------------------
 # Pre-requisites:
 -Streamlit
 -Python 3.6-3.9
@@ -55,7 +48,6 @@ $ streamlit run app.py
 ```
 
 # Future Vision
----------------------------------
 - To make the app available for healthy and unhealthy people (with their diseases).
 - To implement more function for ordering and adding more items fr recommendation.
 - To add some attractive feature for users to make them visit system frequemtly.
