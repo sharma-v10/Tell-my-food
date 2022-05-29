@@ -2,6 +2,7 @@
 tell-my-food is recommendation system based machine learning web app, which when executed provides the client to choose a food item based on their own liking, and basis on which the system recommend them 10 more such similar foods. Our system utilizes item-based collaborative filtering system to implement the same. Our system provides a variety of cuisines to choose from within vegetarian/non-vegetarian options as well.
 
 # Live Demo
+Tell-my-food can be used using this app link:
 https://tell-my-food.herokuapp.com/
 
 # Preview
